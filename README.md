@@ -1,0 +1,5 @@
+# openfinance-simulator
+
+```
+pnpm dev
+```

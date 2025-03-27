@@ -1,0 +1,28 @@
+{
+  "name": "esm-pure-experimental-strip-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "dev": "node --experimental-strip-types --env-file=.env --watch src/index.ts"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "~2.15.0",
+    "@types/koa-bodyparser": "~5.0.2",
+    "@types/koa-logger": "~3.1.5",
+    "@types/koa__router": "~12.0.4",
+    "prettier": "^3.4.2"
+  },
+  "packageManager": "pnpm@10.2.0",
+  "dependencies": {
+    "@koa/router": "^13.1.0",
+    "koa": "^2.16.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-logger": "^3.2.1",
+    "mongoose": "^8.13.0"
+  }
+}
